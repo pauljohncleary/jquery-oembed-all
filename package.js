@@ -5,7 +5,7 @@ var where = 'client';  // where to install: 'client' or 'server'. For both, pass
 
 Package.describe({
   name: packageName,
-  summary: 'Provides client side oembed support to help display embedded content (such as photos or videos) in your Meteor app.',
+  summary: 'Provides client side oembed support to help display embedded content in your Meteor app.',
   version: "1.1.0",
   git: 'https://github.com/nfl/jquery-oembed-all.git'
 });
@@ -21,5 +21,5 @@ Package.onUse(function (api) {
 Package.onTest(function (api) {
   api.use(packageName, where);
   api.use('tinytest', where);
-  api.addFiles('meteor/test.js', where);
+  api.addFiles('test.js', where);
 });

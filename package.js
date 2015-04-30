@@ -1,6 +1,6 @@
 // package metadata file for Meteor.js
 
-var packageName = 'jquery-oembed-all:jquery-oembed-all';  // https://atmospherejs.com/jquery-oembed-all/jquery-oembed-all
+var packageName = 'oembed:jquery-oembed-all';  // https://atmospherejs.com/oembed/jquery-oembed-all
 var where = 'client';  // where to install: 'client' or 'server'. For both, pass nothing.
 
 Package.describe({
